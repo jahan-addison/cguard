@@ -6,7 +6,6 @@
 namespace fcg
 {
     constexpr std::string_view header = \
-        "Welcome to,\n"
         "___                                              __\n"
         "/ _/__________ _    _____  ___ ___ _____ ________/ /\n"
         "/ _/ __/ __/ _ \\ |/|/ / _ \\/ _ `/ // / _ `/ __/ _  /\n"

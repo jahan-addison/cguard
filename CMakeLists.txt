@@ -51,6 +51,10 @@ set(LIBRARY_NAME fcrownguard)  # Default name for the library built from src/*.c
 # Compile all sources into a library.
 add_library(${LIBRARY_NAME} OBJECT ${SOURCES})
 
+set(THREADS_PREFER_PTHREAD_FLAG ON)
+find_package(Threads REQUIRED)
+target_link_libraries(${LIBRARY_NAME} PRIVATE Threads::Threads)
+
 # Lib needs its header files, and users of the library must also see these (PUBLIC). 
 target_include_directories(${LIBRARY_NAME} PUBLIC ${PROJECT_SOURCE_DIR}/include)
 target_include_directories(${LIBRARY_NAME} PUBLIC ${PROJECT_SOURCE_DIR}/external/asio/asio/include)
