@@ -14,9 +14,9 @@ matrix:
             - ubuntu-toolchain-r-test
           packages:
             - lcov
-            - g++-7
+            - g++-10
       env:
-        - MATRIX_EVAL="CXX_COMPILER=g++-7; sudo update-alternatives --install /usr/bin/gcov gcov /usr/bin/gcov-7 90"
+        - MATRIX_EVAL="CXX_COMPILER=g++-10; sudo update-alternatives --install /usr/bin/gcov gcov /usr/bin/gcov-7 90"
 
     # - os: osx
     #   osx_image: xcode10.1
