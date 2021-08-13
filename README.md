@@ -2,7 +2,7 @@
 
 > A relational database in modern C++
 
-You can monitor the progress of the project on [the automated kanban board](https://github.com/jahan-addison/fcrownguard/projects/1?add_cards_query=is%3Aopen).
+You can monitor the progresson [the project kanban boards](https://github.com/jahan-addison/fcrownguard/projects).
 
 ## Research
 
