@@ -6,13 +6,17 @@ You can monitor the progress of the project on [the automated kanban board](http
 
 ## Research
 
-I plan to support at least 2 engine types (probably kv and B+ tree). In addition, I am particularly interested in investigating alternatives to SQL, which in general I find unintuitive while modern breakthrough research exists.
+I plan to support at least 2 engine types (probably in-memory and B+ tree). In addition, I am particularly interested in investigating alternatives to SQL, which in general I find unintuitive while modern breakthrough research exists.
 
 Relevant papers on relational models:
 
  * https://www.dcs.warwick.ac.uk/~hugh/TTM/DBE-Chapter11.pdf
  * https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf
  * https://www.dcs.warwick.ac.uk/~hugh/TTM/reference_material.html
+
+Database architecture:
+ * https://www.sqlite.org/arch.html
+ * https://www.sqlite.org/opcode.html
 
 I have sound [knowledge](https://github.com/jahan-addison/SDL-dart) of [computational lingustics](https://github.com/jahan-addison/ttre) and want to personally explore the nature of a formal system closed under relational algebra.
 
