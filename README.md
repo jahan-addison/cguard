@@ -4,9 +4,13 @@
 
 You can monitor the progresson [the project kanban boards](https://github.com/jahan-addison/fcrownguard/projects).
 
+## Details
+
+The query language of choice is currently [Xquery](https://www.w3.org/TR/xquery-31/). `libxqilla-dev` is currently required. I plan to build a virtual machine and bytecode engine quite similar to SQLite, such that querying the relational model is "free" from storage itself.
+
 ## Research
 
-I plan to support at least 2 engine types (probably in-memory and B+ tree). In addition, I am particularly interested in investigating alternatives to SQL, which in general I find unintuitive while modern breakthrough research exists.
+I am particularly interested in investigating alternatives to SQL for the relational model, which in general I find unintuitive while modern breakthrough research exists.
 
 Relevant papers on relational models:
 

@@ -20,7 +20,7 @@ int main()
   std::cout << fcg::header << std::endl;
   try
   {
-    asio::io_context io_context;
+    asio::io_context io_context{};
     fcg::TCP_Server server{io_context};
     io_context.run();
   }
