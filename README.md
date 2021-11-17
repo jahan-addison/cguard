@@ -6,7 +6,7 @@ You can monitor the progress on [the project kanban boards](https://github.com/j
 
 ## Details
 
-The query language of choice is currently [Xquery](https://www.w3.org/TR/xquery-31/). `libxqilla-dev` is currently required. I plan to build a virtual machine and bytecode engine quite similar to SQLite, such that querying the relational model is "free" from storage itself.
+The query language of choice is currently scheme + schemeQL. I plan to build a virtual machine and bytecode engine quite similar to SQLite, such that querying the relational model is "free" from storage itself.
 
 ## Research
 
