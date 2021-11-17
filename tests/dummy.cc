@@ -1,4 +1,3 @@
-#include "doctest.h"
 
 // // Tests that don't naturally fit in the headers/.cc files directly
 // // can be placed in a tests/*.cc file. Integration tests are a good example.

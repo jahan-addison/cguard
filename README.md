@@ -1,8 +1,8 @@
-# fcrownguard
+# crownguard
 
 > A relational database in modern C++
 
-You can monitor the progress on [the project kanban boards](https://github.com/jahan-addison/fcrownguard/projects).
+You can monitor the progress on [the project kanban boards](https://github.com/jahan-addison/crownguard/projects).
 
 ## Details
 
